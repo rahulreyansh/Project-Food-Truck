@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to left,
+    #fbc7d4,
+    #9796f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Section-1 {
+  height: auto;
+  width: 95%;
+  background-color: rgb(240, 239, 239);
+  margin-top: 50px;
+  margin-left: 40px;
+  padding-bottom: 40px;
+}
+.logo {
+  height: 100px;
+  width: auto;
+  vertical-align: middle;
+  padding-left: 75px;
+}
+.Section-1-1 {
+  display: flex;
+  gap: 375px;
+}
+nav li {
+  padding-top: 25px;
+  display: inline-block;
+  padding-left: 35px;
+}
+nav a {
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 115%;
+  font-weight: 500;
+  color: #345af7;
+}
+#btn-1 {
+  border-radius: 100px;
+  background-color: #345af7;
+  padding: 10px 30px;
+  color: white;
+}
+.Section-1-2 {
+  display: flex;
+  margin-top: 75px;
+}
+.img1 {
+  height: 450px;
+  width: auto;
+  margin-left: 100px;
+}
+.text-box-1 {
+  width: 60%;
+  padding-left: 70px;
+  text-align: start;
+}
+.heading-1 {
+  font-size: 400%;
+  font-weight: 750;
+  letter-spacing: 1.7px;
+  color: #052297;
+}
+.spn1 {
+  color: orange;
+}
+.para-1 {
+  margin-top: -30px;
+  font-size: 190%;
+  font-weight: 350;
+  width: 120%;
+  line-height: 1.25;
+  letter-spacing: 1;
+  color: #052297;
+}
+.heading-1.btn-2 {
+  padding-top: 50px;
+}
+.button {
+  margin-top: 40px;
+}
+.btn-2 {
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 100px;
+  background-color: #345af7;
+  padding: 10px 100px;
+  color: white;
+}
+.btn-group {
+  display: inline-flex;
+  gap: 30px;
+}
+.btn-Or {
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: orange;
+  color: white;
+}
+.links {
+  margin-left: 150px;
+}
+.link-1 {
+  height: 32px;
+  width: auto;
+}
+.links li {
+  padding-top: 50px;
+  display: inline-block;
+  padding-left: 70px;
+}
+.links a {
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 85%;
+  font-weight: 500;
+}
+.section-1-4 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 250px;
+  width: 225px;
+  display: inline-block;
+  margin-left: 30px;
+  background-color: rgba(243, 243, 243, 0.993);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px rgb(231, 231, 231);
+}
+
+.card i {
+  margin-top: 50px;
+  font-size: 225%;
+  color: orange;
+}
+.head {
+  font-size: 150%;
+  font-weight: 600;
+  color: orange;
+  margin-top: 20px;
+}
+.para-2 {
+  margin-top: 25px;
+  font-weight: 550;
+  color: #052297;
+  font-size: 125%;
+}
+.section-1-5 {
+  display: flex;
+  margin-top: 0;
+}
+.img2 {
+  height: 450px;
+  width: auto;
+  margin-left: 40px;
+}
+.text-box-2 {
+  margin-top: 80px;
+}
+.heading-2 {
+  font-size: 400%;
+  font-weight: 750;
+  letter-spacing: 1.7px;
+  color: #052297;
+}
+.para-3 {
+  margin-top: -30px;
+  font-size: 190%;
+  font-weight: 350;
+  width: 100%;
+  line-height: 1.25;
+  letter-spacing: 1;
+  color: #052297;
+}
+.section-1-6 {
+  display: flex;
+  margin-top: 0;
+}
+.img3 {
+  height: 400px;
+  width: auto;
+  margin-right: 40px;
+}
+.text-box-3 {
+  margin-top: 80px;
+  padding-left: 70px;
+}
+.heading-3 {
+  font-size: 400%;
+  font-weight: 750;
+  letter-spacing: 1.7px;
+  color: #052297;
+}
+.para-4 {
+  margin-top: -30px;
+  font-size: 190%;
+  font-weight: 350;
+  width: 100%;
+  line-height: 1.25;
+  letter-spacing: 1;
+  color: #052297;
+}
+.primary-head {
+  text-align: center;
+}
+.heading-4 {
+  font-size: 400%;
+  font-weight: 750;
+  letter-spacing: 1.7px;
+  color: #052297;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  height: 125px;
+  width: 225px;
+  background-color: rgba(243, 243, 243, 0.993);
+  margin-left: 30px;
+  box-shadow: 8px 8px 8px rgb(231, 231, 231);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card2 .para-2 {
+  margin-top: 10px;
+}
+.last {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.footer-sec-1 p {
+  padding-left: 92px;
+  padding-top: 5px;
+  color: #052297;
+  font-size: 105%;
+}
+.footer-sec-2 h3,
+a,
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 10px;
+  color: #052297;
+  font-size: 105%;
+}
+.head-last {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 130%;
+  color: orangered;
+}
